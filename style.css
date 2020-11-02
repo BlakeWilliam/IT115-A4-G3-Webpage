@@ -1,58 +1,73 @@
 p {
     text-align: center;
+    font-family: 'Noto Sans', sans-serif;
 }
 
 h2 {
     text-align: center;
+    font-family: 'Noto Sans', sans-serif;
 }
 
 h3 {
     text-align: center;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+h4 {
+    text-align: center;
+    font-family: 'Noto Sans', sans-serif;
 }
 
 ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: #333;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    font-family: 'Noto Sans', sans-serif;
+}
+div {
+    font-family: 'Noto Sans', sans-serif;
 }
 
 li {
-  float: left;
+    float: left;
+    
 }
 
 li a, .dropbtn {
-  display: inline-block;
-  color: #f1f1f1;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
+    display: inline-block;
+    color: #f1f1f1;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
 }
 
 li a:hover, .dropdown:hover .dropbtn {
-  background-color: #111111;
+    background-color: #111111;
 }
 
 li.dropdown {
-  display: inline-block;
+    display: inline-block;
 }
 
 .dropdown-content {
-  display: inline-block;
-  position: absolute;
-  background-color: #f1f1f1;
-  min-width: 160px;
-  box-shadow: 0px 8px 16px 0px #333;
-  z-index: 1;
+    display: inline-block;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px #333;
+    z-index: 1;
+    font-family: 'Noto Sans', sans-serif;
 }
 
 .dropdown-content a {
-  color: #111111;
-  padding: 12px 16px;
-  text-decoration: none;
-  display: block;
-  text-align: left;
+    color: #111111;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+    font-family: 'Noto Sans', sans-serif;
 }
 
 .dropdown-content a:hover {background-color: #f1f1f1;}
@@ -61,14 +76,10 @@ li.dropdown {
   display: block;
 }
 
-img {
-  max-width: 400px;
-  height: auto;
-}
-
-.seattle {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  max-width: 600px:
+a {
+    border-style: solid;
+    padding: 1px;
+    font-family: 'Noto Sans', sans-serif;
+    text-decoration:none;
+    color: green;
 }
