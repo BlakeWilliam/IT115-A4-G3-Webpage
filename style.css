@@ -1,6 +1,9 @@
 p {
     text-align: center;
     font-family: 'Noto Sans', sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
 }
 
 h2 {
@@ -77,9 +80,13 @@ li.dropdown {
 }
 
 a {
-    border-style: solid;
+    border-style: none;
     padding: 1px;
     font-family: 'Noto Sans', sans-serif;
-    text-decoration:none;
+    text-decoration:underline;
+    color: dimgrey;
+}
+
+a:link:hover {
     color: green;
 }
